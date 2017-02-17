@@ -1,0 +1,31 @@
+{
+  "name": "gulp-node-browserify",
+  "version": "0.1.1",
+  "description": "gulp with browserify",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 6.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qkrcjfgus33/gulp-node-browserify.git"
+  },
+  "author": "vomvoru<qkrcjfgus3@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qkrcjfgus33/gulp-node-browserify/issues"
+  },
+  "keywords": [
+    "gulp",
+    "browserify"
+  ],
+  "homepage": "https://github.com/qkrcjfgus33/gulp-node-browserify#readme",
+  "dependencies": {
+    "browserify": "^14.1.0",
+    "through2": "^2.0.3",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
