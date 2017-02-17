@@ -28,4 +28,4 @@ gulp.task('browserify', () => {
 
 Reference : https://github.com/substack/node-browserify#methods
 
-\* files, opts.entries is not used.
+#### files, opts.entries is not used.
