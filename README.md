@@ -15,11 +15,9 @@ var browserify = require('gulp-node-browserify');
 
 // Basic usage
 gulp.task('browserify', () => {
-  let dest = './dest'
-
   gulp.src('./index.js')
     .pipe(browserify())
-    .pipe(gulp.dest(dest))
+    .pipe(gulp.dest('./dest'))
 });
 ```
 
