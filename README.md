@@ -18,7 +18,6 @@ gulp.task('browserify', () => {
   let dest = './dest'
 
   gulp.src('./index.js')
-    .pipe(changed(dest))
     .pipe(browserify())
     .pipe(gulp.dest(dest))
 });
